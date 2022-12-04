@@ -15,21 +15,52 @@ header{
     flex-direction: column;
     height: 100vh;
     width: 100vw;
+    padding: auto;
 }
-
+h1{
+    padding-inline-start: 5px;
+    padding-inline-end: 5px;
+}
 nav{
     display: flex;
     justify-content: center;
+    align-items: center;
+    
     
 }
  ul{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     list-style: none;
+    justify-content: center;
+    align-content: center;
+    padding-inline-start: 5px;
+    padding-inline-end: 5px;
     
 }
+
+
  li{
-    padding: 5px;
+    
     display: flex;
     flex-wrap: nowrap;
  }
+ @media (max-width:701px){
+
+    #navbar-collapse{
+        display: block; 
+    }
+    .li-collapse {
+        padding: 10px 10px 10px 10px;
+    }
+}
+a{
+    display: flex;
+    
+    text-decoration: none;
+    padding-right: 3rem;
+    padding-left: 3rem;
+   
+}
+ /* End */
