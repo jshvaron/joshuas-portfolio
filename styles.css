@@ -54,7 +54,7 @@ li{
  }
  @media (max-width:701px){
 
-    #navbar-collapse{
+    .collapse{
         display: block; 
     }
     .li-collapse {
@@ -275,6 +275,7 @@ a{
  }
 #contacts{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 #github-link #linkedIn{
@@ -283,6 +284,7 @@ a{
 #github-link:hover {
     cursor: pointer;
     transform: scale(1.25);
+    background: none;
 }
 
 #linkedIn{
@@ -291,8 +293,22 @@ a{
 #linkedIn:hover{
     cursor: pointer;
     transform: scale(1.25);
+    background: none;
+}
+#art{
+    display: flex;
+}
+@media (max-width:701px){
+    .contact-collapse{
+        display: block;
+        
+    }
 }
 
+#contact-info{
+    display: flex;
+    justify-content: space-evenly;
+}
 /* End */
 
 
