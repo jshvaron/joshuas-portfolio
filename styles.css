@@ -202,6 +202,7 @@ a{
 #cheatsheet{
     background-image: url(assets/cheatsheet.png);
     background-size: contain; 
+    transition: all .125s ease-in-out;
     
 }
 #cheatsheet:hover{
@@ -210,12 +211,18 @@ a{
     filter: blur(0px);
     border-radius: 10%;
     box-shadow: 10px 10px 50px #DEB841;
+    transform: scale(1.025);
     
 }
 
 #project-1{
     background-image: url(assets/project-1.png);
     background-size: contain; 
+}
+.title{
+    background: none;
+    color: black;
+    font-weight: bold;
 }
 #project-1:hover{
     cursor: pointer;
@@ -228,9 +235,25 @@ a{
     background-image: url(assets/horiseon.png);
     background-size: contain;
 }
+#horiseon:hover{
+    cursor: pointer;
+    -webkit-backdrop-filter: blur(0px); 
+    filter: blur(0px);
+    border-radius: 10%;
+    box-shadow: 10px 10px 50px #DEB841;
+}
 #prework{
     background-image: url(assets/prework.png);
     background-size: contain;
+   
+    
+}
+#prework:hover{
+    cursor: pointer;
+    -webkit-backdrop-filter: blur(0px); 
+    filter: blur(0px);
+    border-radius: 10%;
+    box-shadow: 10px 10px 50px #DEB841;
 }
 /* End */
 
@@ -239,6 +262,13 @@ a{
 
  #contact-container{
     margin: none;
+    display: flex;
+    justify-content: center;
+    
+
+ }
+ #contact-header{
+   height: 2rem;
  }
 
 /* End */
