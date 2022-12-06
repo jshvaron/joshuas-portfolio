@@ -7,50 +7,86 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header>
+<body id="body">
+    <header >
         <h1>Portfolio</h1>
         <nav>
             <ul id="navbar-collapse">
-                <li class="li-collapse">
+                <li class="li-collapse"id="br-color">
                     <a href="#about-me-jump">About Me</a>
                 </li>
-                <li class="li-collapse">
+                <li class="li-collapse"id="br-color">
                     <a href="#my-work-jump">My Work</a>
                 </li>
                 <li class="li-collapse">
-                    <a href="#contact-jump">Contact Info</a>
+                    <a href="#contact-jump" id="br-color">Contact Info</a>
                 </li>
-                <li class="li-collapse">
+                <li class="li-collapse"id="br-color">
                     <a href="#link-jump">Links</a>
                 </li>
             </ul>
         </nav>
     </header>
     
+    
 
     <main>
-
-        <section class="sectioned-container">
-            <h2 id="about-me-jump">
+        <div id="about-me-jump">
+            <section id="about-me-container"          class="sectioned-container">
+                <h2 id="aboutme">
                 About Me
-            </h2>
-        </section>
-        <section class="sectioned-container">
-            <h2 id="my-work-jump">
-                My Work
-            </h2>
-        </section>
-        <section class="sectioned-container">
-            <h2 id="contact-jump">
-                Contact Info
-            </h2>
-            <section class="sectioned-container">
-            <h2 id="link-jump">
-                Links
-            </h2>
-        </section>
-        
+             </h2>
+                <figure id="pic-container">
+                <img src="assets/IMG_7883.jpg" alt="Photo of Joshua" id="pic">
+                </figure>
+                
+                <article id="p-aboutme"> <h3 id="about-name">Hello, my name is Joshua Aguirre</h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed delectus facilis saepe laudantium commodi dolore doloribus veniam! Non quia eos, aut facere perferendis, quibusdam recusandae enim aliquid corporis saepe iure.</article>
+            
+            </section>
+        </div>
+
+        <div id="my-work-jump">
+            <section id="my-work-container" class="sectioned-container">
+                <h2 id="work-header">
+                    My Work
+                </h2>
+
+
+                <section class="card-container">
+                    <article id="cheatsheet" class="card-style">
+                        Cheat Sheet
+                    </article>
+
+
+                    <article id="project-1" class="card-style">Project 1</article>
+
+
+                    <article id="horiseon" class="card-style"> Horiseon Project</article>
+
+
+                    <article id="prework" class="card-style">Prework Study Guide</article>
+
+
+                </section>
+            </section>
+        </div>
+
+        <div id="contact-jump">
+            <section id="contact-container" class="sectioned-container">
+                <h2 >
+                    Contact Info
+                </h2>
+            </section>
+        </div>
+
+        <div id="link-jump">
+            <section></section>
+            <section id="links-container" class="sectioned-container">
+                <h2 >
+                    Links
+                </h2>
+            </section>
+        </div>
     </main>
 
 

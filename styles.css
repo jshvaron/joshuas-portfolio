@@ -1,7 +1,10 @@
 /* Universals*/
 *{
-    background-color: rgb(224, 222, 222);
-    font-family: 'Courier New', Courier, monospace
+    scroll-behavior: smooth;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #37323E;
+    color: rgb(224, 222, 222)
+
 }
 /* end*/
 
@@ -25,6 +28,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+   
     
     
 }
@@ -38,13 +42,15 @@ nav{
     padding-inline-start: 5px;
     padding-inline-end: 5px;
     
+   
+   
+    
 }
-
-
- li{
+li{
     
     display: flex;
     flex-wrap: nowrap;
+    
  }
  @media (max-width:701px){
 
@@ -61,11 +67,193 @@ a{
     text-decoration: none;
     padding-right: 3rem;
     padding-left: 3rem;
+    
+    
+    
    
 }
  /* End */
+
+
+ body{
+
+    margin: 0px;
+ }
+
+
+ /* Structure for sections */
 
  .sectioned-container {
     height: 100vh;
     width: 100vw;
  }
+
+ /* End */
+
+
+ /* About me section */
+
+ #about-me-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: none;
+
+ }
+
+ #aboutme {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+ }
+
+#pic {
+    height: auto;
+    width: 200px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 50px #DEB841;
+    z-index: 1;
+    margin-bottom: 1rem;
+    
+  
+}
+#pic-container{
+    display: flex;
+}
+
+#p-aboutme{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+#about-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End */
+
+
+ /* My Work section */
+
+ #my-work-container{
+    
+
+ }
+#work-header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 15%;
+
+}
+ .card-container{
+   display: flex;
+   flex-direction: row;
+   
+   justify-content: center;
+   align-items: center;
+   margin-top: 10%;
+   
+   
+   
+
+ }
+ @media (max-width:701px){
+
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;}
+    
+    
+}
+
+ .card-style{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   height: 25vh;
+   width: 50%;
+   margin: 1%;
+   border: 2px solid #DEB841;
+   padding: 1%;
+   filter: blur(1px);
+   color: black;
+   font-weight: bold;
+   border-radius: 10%;
+ }
+
+ 
+ 
+@media (max-width:701px) {
+   .card-style{
+    width: 33%;
+    display: flex; 
+   justify-content: center;
+   align-items: center;
+   }
+}
+
+
+/* background images for work cards*/
+#cheatsheet{
+    background-image: url(assets/cheatsheet.png);
+    background-size: contain; 
+    
+}
+#cheatsheet:hover{
+    cursor: pointer;
+    -webkit-backdrop-filter: blur(0px); 
+    filter: blur(0px);
+    border-radius: 10%;
+    box-shadow: 10px 10px 50px #DEB841;
+    
+}
+
+#project-1{
+    background-image: url(assets/project-1.png);
+    background-size: contain; 
+}
+#project-1:hover{
+    cursor: pointer;
+    -webkit-backdrop-filter: blur(0px); 
+    filter: blur(0px);
+    border-radius: 10%;
+    box-shadow: 10px 10px 50px #DEB841;
+}
+#horiseon {
+    background-image: url(assets/horiseon.png);
+    background-size: contain;
+}
+#prework{
+    background-image: url(assets/prework.png);
+    background-size: contain;
+}
+/* End */
+
+
+ /* Contact section */
+
+ #contact-container{
+    margin: none;
+ }
+
+/* End */
+
+
+/* Links section */
+
+#links-container{
+    margin: none;
+ }
+
+/* End */
+
+
+h2{margin: 0;}
+
+/* section transitions */
+
