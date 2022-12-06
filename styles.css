@@ -138,10 +138,7 @@ a{
 
  /* My Work section */
 
- #my-work-container{
-    
-
- }
+ 
 #work-header{
     display: flex;
     width: 100%;
@@ -263,13 +260,38 @@ a{
  #contact-container{
     margin: none;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+   
     
 
  }
  #contact-header{
-   height: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 15%;
+    height: 27px;
  }
+#contacts{
+    display: flex;
+    justify-content: space-around;
+}
+#github-link{
+    transition: all .2125s ease-in-out;
+}
+#github-link:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+}
+
+#linkedIn{
+    transition: all .2125s ease-in-out;}
+
+#linkedIn:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+}
 
 /* End */
 
