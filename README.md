@@ -6,4 +6,4 @@
 ### ----Accessability-----
 ### Navbar: jumps to section 
 ### My work cards: Hover present blur with direct links to deployments
-### Contact info: github and linked in directly send you to my profiles
+### Contact info: github and linkedIn directly send you to my profiles
