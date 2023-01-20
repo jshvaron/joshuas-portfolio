@@ -113,7 +113,7 @@ a{
     height: auto;
     width: 200px;
     border-radius: 10%;
-    box-shadow: 10px 10px 50px #DEB841;
+    box-shadow: -10px 10px 1000px #ffffff;
     z-index: 1;
     margin-bottom: 1rem;
     
@@ -126,6 +126,8 @@ a{
 #p-aboutme{
     margin-left: 4rem;
     margin-right: 4rem;
+    width: 600px;
+
 }
 #about-name{
     display: flex;
@@ -198,7 +200,8 @@ a{
 /* background images for work cards*/
 #cheatsheet{
     background-image: url(assets/cheatsheet.png);
-    background-size: contain; 
+    background-image: cover;
+    background-size: 400px 450px;
     transition: all .125s ease-in-out;
     
 }
@@ -214,7 +217,9 @@ a{
 
 #project-1{
     background-image: url(assets/project-1.png);
-    background-size: contain; 
+    background-size: cover;
+    background-size: 400px 450px;
+
 }
 .title{
     background: none;
@@ -229,8 +234,10 @@ a{
     box-shadow: 10px 10px 50px #DEB841;
 }
 #horiseon {
-    background-image: url(assets/horiseon.png);
-    background-size: contain;
+    background-image: url(assets/pswgeneratorSH.png);
+    background-size: cover;
+    background-size: 400px 450px;
+
 }
 #horiseon:hover{
     cursor: pointer;
@@ -241,7 +248,7 @@ a{
 }
 #prework{
     background-image: url(assets/w4d.png);
-    background-size: contain;
+    background-size: 400px 450px;
    
     
 }
@@ -288,7 +295,7 @@ a{
 }
 
 #linkedIn{
-    transition: all .2125s ease-in-out;}
+    ;}
 
 #linkedIn:hover{
     cursor: pointer;
