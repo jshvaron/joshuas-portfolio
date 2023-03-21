@@ -258,6 +258,19 @@ a{
     filter: blur(0px);
     border-radius: 10%;
     box-shadow: 10px 10px 50px #DEB841;
+},
+#flexappeal{
+    background-image: url(assets/flexappeal.png);
+    background-size: 400px 450px;
+   
+    
+}
+#flexappeal:hover{
+    cursor: pointer;
+    -webkit-backdrop-filter: blur(0px); 
+    filter: blur(0px);
+    border-radius: 10%;
+    box-shadow: 10px 10px 50px #DEB841;
 }
 /* End */
 
